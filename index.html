@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website of Abbeer Lal Debb">
+    <meta name="keywords"
+        content="Abbeer Portfolio, HTML, CSS, JavaScript, Cara E-Commerce by Abbeer, NodeJS, Custom Music Player by Abbeer">
+    <meta name="author" content="Abbeer Lal Debb">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <title>Abbeer | Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html"><img src="images/logo.gif" alt="Image Loading" class="logo"></a>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a class="navbar-link home-link" id="home-link" href="/index.html">Home</a></li>
+                <li><a class="navbar-link about-link" href="#skills-section">Skills</a></li>
+                <li><a class="navbar-link portfolio-link" href="#portfolio-section">Projects</a></li>
+                <li><a class="navbar-link service-link" href="#service-section">Services</a></li>
+                <li><a class="navbar-link coding-profile-link" href="#coding-profile-section">Coding Profiles</a></li>
+                <li>
+                    <a class="navbar-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+
+
+    <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">This is me</p>
+                    <h1 class="hero-heading">Abbeer Lal Debb</h1>
+                    <div>
+                        <a href="#contact-section" class="btn hireme-btn">Work with me!</a>
+                    </div>
+                </div>
+                <!-- Hero Section Right Data -->
+                <div class="section-hero-image">
+                    <img src="images/hero.jpg" alt="Image Loading" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================================== 
+          Our Skills Section Start  
+    ========================================  -->
+    <section class="section-biodata section" id="skills-section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="images/biodata.jpg" alt="Image Loading">
+            </div>
+            <!-- Bio Right Side Data -->
+            <div class="bio-data">
+                <h2 class="common-heading">
+                    <ion-icon name="construct-outline" class="icon-down"></ion-icon>Skills
+                </h2>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>C++</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>My SQL</h3>
+                        <div class="bio-progress-bar bio-progress-5 ">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="" class="cv-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================================== 
+          Our Projects Section Start  
+    ========================================  -->
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">
+                <ion-icon name="git-branch-outline" class="icon-down"></ion-icon>Projects
+            </h2>
+            <p>I have developed some projects based on <span class="technologies">Front-End & Back-End</span>
+                Development, with the help of technolgies like <span class="technologies">HTML</span>, <span
+                    class="technologies">CSS</span>, <span class="technologies">JavaScript</span>, <span
+                    class="technologies">NodeJS</span>, <span class="technologies">ExpressJS</span> & <span
+                    class="technologies">Socket IO</span>. Do have a look on it by clicking any of the buttons below.
+            </p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Front-End</div>
+            <div class="btn p-btn" data-btn-num="2">Back-End</div>
+        </div>
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/Abbeer Portfolio.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="" target="_blank" class="project-heading">Abbeer Portfolio</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/Cara E-Commerce ScreenShot.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="https://cara-e-commerce-by-abbeer.netlify.app/" target="_blank"
+                        class="project-heading">Cara's E-Commerce</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/Custom-Music-Player-Screenshot.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="https://custom-music-player-by-abbeer.netlify.app/" target="_blank"
+                        class="project-heading">Custom Music Player</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/folio/Abbeer-Chat-Window.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="https://vimeo.com/882154756?share=copy" target="_blank" class="project-heading">Chat
+                        Application</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/folio/Merge-PDFs-Front-Page.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="https://vimeo.com/880615301?share=copy" target="_blank" class="project-heading">Merge
+                        PDFs</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio/1.jpg" alt="Image Loading" />
+                <div class="overlay">
+                    <a href="" target="_blank" class="project-heading">Project 6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================================== 
+          Our Services Section Start  
+    ========================================  -->
+    <section class="section section-services" id="service-section">
+        <div class="container">
+            <h2 class="common-heading">
+                <ion-icon name="headset-outline" class="icon-down"></ion-icon>Service Offers
+            </h2>
+            <p>Here are some of the services that we provide.</p>
+        </div>
+
+        <!-- Services Offers Card -->
+
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="globe-outline" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>“Web design refers to the design of websites that are displayed on the internet. It usually refers to
+                    the user experience aspects of website development rather than software development.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>web development</h3>
+                <p>
+                    “Web development refers to the creating, building, and maintaining of websites. It includes aspects
+                    such as web design, web publishing, web programming, and database management.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                <h3>photography</h3>
+                <p>
+                    “The art or process of capturing images, either on light-sensitive film or electronically in digital
+                    form, from which viewable pictures can be produced; activity of someone who uses a camera.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+                <h3>Mobile Apps</h3>
+                <p>
+                    “A mobile app is a software application developed specifically for use on small, wireless computing
+                    devices, such as smartphones and tablets, rather than desktop or laptop computers.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+                <h3>apps interface</h3>
+                <p>
+                    “An application interface is a set of rules and protocols that describes how two software programs
+                    or systems communicate with each other. The application interface serves as an intermediary between
+                    two systems as they exchange data.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="build-sharp" class="service-icon"></ion-icon>
+                <h3>graphic design</h3>
+                <p>
+                    “Graphic design is the art or profession of visual communication that combines images, words, and
+                    ideas to convey information to an audience, especially to produce a specific effect.”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Testimonial Section Start  
+    ========================================  -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">
+                <ion-icon name="people-outline" class="icon-down"></ion-icon>Happy Clients
+            </h2>
+        </div>
+
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- Slide Start -->
+                    <div class="swiper-client-msg">
+                        <p>Your loyal customer base is outstanding. Customers often ask for you by name and you have a
+                            lot of repeat customers as a result. Great job!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/a.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Jade Benn</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Clients constantly request you for advice to solve their problems. You’ve become quite the
+                            go-to person with our customers.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/b.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Payton Sydney</p>
+                            <p>Systems Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You have no problem building rapport with everyone you come in contact work. This is a great
+                            customer service skill to possess.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/c.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Nicky Vinci</p>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You're really good at following up with the client so as to ensure that they are never left
+                            in the dark. Keep it up!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/d.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Shaye Everett</p>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Even when customers are difficult, you still manage to give them feedback in a timely and
+                            constructive manner.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/e.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Schuyler Akerman</p>
+                            <p>Administrator</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You have the natural ability to understand and feel what your customers are experiencing, and
+                            you are able to meet their needs effectively. Well done!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/f.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Neely Abrahamson</p>
+                            <p>A.I. Supervisor</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You're really good at focusing on what customers need and require. You have a real instinct
+                            to understand our customers. Good work!.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/g.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Petra Miles</p>
+                            <p>Instructor</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You're a great team player and you constantly help others meet their customer requests. Well
+                            done!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/h.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Roswell Geary</p>
+                            <p>Communications Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide End -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>You excel at serving your customers. Great job!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/a.jpg" alt="Image Loading">
+                        </figure>
+                        <div class="client-data-details">
+                            <p>Monte Brant</p>
+                            <p>Inventor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Freelancing Section   
+    ========================================  -->
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span> available </span> for freelancing!</h2>
+            <a href="#contact-section" class="btn hireme-btn">Work with me!</a>
+        </div>
+    </section>
+
+
+    <!-- ======================================== 
+          Our Contact Section   
+    ========================================  -->
+    <section class="section section-contact" id="contact-section">
+        <div class="container">
+            <h2 class="common-heading">
+                <ion-icon name="person-outline" class="icon-down"></ion-icon>Contact Us
+            </h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <div class="contact-heading">
+                <h3>Got something for me?</h3>
+                <p>Or just say hi! &#128075;</p>
+            </div>
+            <form action="https://formspree.io/f/xvonjrrz" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Your Name" id="username" required
+                            autocomplete="off" min="">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Your Email" id="email" required
+                            autocomplete="off">
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="Subject" id="subject" required autocomplete="off"
+                        min="">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Your Message" required
+                        autocomplete="off" min=""></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Message" min="" onclick="resetForm">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Footer Section   
+    ========================================  -->
+
+    <footer class="section section-footer" id="coding-profile-section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>I am an Aspiring Software Developer and a passionate Web Developer.
+
+                    I have 1+ years of experience working in the IT Industry, as a ServiceNow Developer and a Tester.
+
+                    I have a deep interest in Web Development
+
+                    and have a good knowledge of DSA, OOPS, MySQL, and my primary programming language is C++. </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a href="/index.html">home</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a href="/skills.html">Skills</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a href="/projects.html">Projects</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a href="/services.html">Services</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a href="/contact.html">contact</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Coding Profiles</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a
+                                href="https://github.com/Abbeer-Lal-Debb" target="_blank">GitHub</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a
+                                href="https://leetcode.com/abbeerlaldebb/" target="_blank">LeetCode</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a
+                                href="https://auth.geeksforgeeks.org/user/abbeerlaldebb/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+                                target="_blank">GeeksForGeeks</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon><a
+                                href="https://www.hackerrank.com/abbeer_ald?hr_r=1" target="_blank">HackerRank</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p> <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            <a href="https://www.google.com/maps/@28.4692586,77.0270377,11.94z?entry=ttu"
+                                target="_blank">Gurgaon, India</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p> <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:+916009553747" target="_blank"> +91-6009553747 </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p> <span>
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </span>
+                            <a href="https://wa.me/6385137237" target="_blank"> +91-6385137237 </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p> <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mailto:abbeerlal.debb@gmail.com" target="_blank">abbeerlal.debb@gmail.com</a>
+                        </p>
+                    </div>
+
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.linkedin.com/in/abbeer-lal-debb/" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://instagram.com/abbeer.ald?igshid=YWR5NzVyNHMxZGox" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="https://www.facebook.com/aabir.28?mibextid=ZbWKwL" target="_blank">
+                    <ion-icon class="icons" name="logo-facebook"></ion-icon>
+                </a>
+            </div>
+            <div class="f-credits">
+                <p>Copyright ©2024 All rights reserved | Abbeer Lal Debb</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
