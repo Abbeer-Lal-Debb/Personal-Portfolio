@@ -30,4 +30,4 @@ The website has been tested using Google Chrome **Lighthouse** property which is
 
 ## Demo
 
-- [Personal Portfolio - Live Website](https://cara-e-commerce-by-abbeer.netlify.app/)
+- [personal Portfolio - Live Website](https://personal-portfolio-by-abbeer.netlify.app/)
