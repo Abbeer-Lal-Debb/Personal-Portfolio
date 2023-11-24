@@ -114,9 +114,9 @@ const scrollTop = () => {
 scrollElement.addEventListener('click', scrollTop)
 
 
-// // ========================================
-// //  smooth scrolling
-// // ========================================
+// ========================================
+//  smooth scrolling
+// ========================================
 
 const portfolioSection = document.querySelector(".section-portfolio");
 const contactSection = document.querySelector(".section-contact");
@@ -131,6 +131,10 @@ document.querySelector(".hireme-btn").addEventListener("click", (e) => {
     e.preventDefault();
     contactSection.scrollIntoView({ behavior: "smooth" });
 });
+
+// ========================================
+//  Clear the contact details on submitting the contact form
+// ========================================
 
 function resetForm (){
     let submit = document.getElementById('submit');
